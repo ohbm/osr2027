@@ -72,10 +72,10 @@
   title: Ten years of OSSIG - historical perspectives on open science at OHBM
   day_label: June 17, 2026
   weekday: Wednesday
-  start_time: "09:30"
-  end_time: "10:30"
-  gcal_start: "20260617T093000"
-  gcal_end: "20260617T103000"
+  start_time: "08:00"
+  end_time: "09:00"
+  gcal_start: "20260617T080000"
+  gcal_end: "20260617T090000"
   crowdcast_url: "https://www.crowdcast.io/c/osr-2026-panel-10-years-ossig"
   feedback_url: "https://forms.gle/5zUiQCFY8gNhEVacA"
   description: >

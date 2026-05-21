@@ -157,27 +157,27 @@ LOCATION:OHBM Open Science Room
 URL:https://ohbm.github.io/osr2026/schedule/
 END:VEVENT
 BEGIN:VEVENT
-UID:osr2026-emergent-1@ohbm.github.io
+UID:osr2026-ten-years-ossig@ohbm.github.io
 DTSTAMP:20260514T000000Z
 DTSTART;TZID=Europe/Paris:20260617T080000
 DTEND;TZID=Europe/Paris:20260617T090000
-SUMMARY:Emergent Session 1
-DESCRIPTION:OHBM Open Science Room 2026 session. Full schedule: https://ohb
- m.github.io/osr2026/schedule/
-LOCATION:OHBM Open Science Room
-URL:https://ohbm.github.io/osr2026/emergent/
-END:VEVENT
-BEGIN:VEVENT
-UID:osr2026-ten-years-ossig@ohbm.github.io
-DTSTAMP:20260514T000000Z
-DTSTART;TZID=Europe/Paris:20260617T093000
-DTEND;TZID=Europe/Paris:20260617T103000
 SUMMARY:Panel 3: Ten years of OSSIG - historical perspectives on open scien
  ce at OHBM
 DESCRIPTION:OHBM Open Science Room 2026 session. Full schedule: https://ohb
  m.github.io/osr2026/schedule/
 LOCATION:OHBM Open Science Room
 URL:https://ohbm.github.io/osr2026/panel/#ten-years-ossig
+END:VEVENT
+BEGIN:VEVENT
+UID:osr2026-emergent-1@ohbm.github.io
+DTSTAMP:20260514T000000Z
+DTSTART;TZID=Europe/Paris:20260617T093000
+DTEND;TZID=Europe/Paris:20260617T103000
+SUMMARY:Emergent Session 1
+DESCRIPTION:OHBM Open Science Room 2026 session. Full schedule: https://ohb
+ m.github.io/osr2026/schedule/
+LOCATION:OHBM Open Science Room
+URL:https://ohbm.github.io/osr2026/emergent/
 END:VEVENT
 BEGIN:VEVENT
 UID:osr2026-career-journeys@ohbm.github.io

@@ -61,16 +61,16 @@ days:
     tab_label: June 17
     heading: June 17, Wednesday
     entries:
+      - session_id: ten-years-ossig
       - id: emergent-1
         title: Emergent Session 1
-        start_time: "08:00"
-        end_time: "09:00"
-        gcal_start: "20260617T080000"
-        gcal_end: "20260617T090000"
+        start_time: "09:30"
+        end_time: "10:30"
+        gcal_start: "20260617T093000"
+        gcal_end: "20260617T103000"
         page_url: /emergent/
         crowdcast_url: "https://www.crowdcast.io/c/osr-2026-emergent-1"
         feedback_url: "https://forms.gle/NbGEjLwgYTRkS11Q7"
-      - session_id: ten-years-ossig
       - session_id: career-journeys
       - id: emergent-2
         title: Emergent Session 2
