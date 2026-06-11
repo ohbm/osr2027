@@ -4,7 +4,6 @@ Name: Yohan Yee
 Title: Assistant Professor
 Pronouns: he/him
 Job: Panelist
-Panel: How to Communicate Your Science to a Broader Audience
 Affiliation: University of Calgary
 ShortBio: Yohan is Chair of the OHBM Communications Committee and Assistant Professor
   at the University of Calgary. His work involves scanning mice with MRI in order to

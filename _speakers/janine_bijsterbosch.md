@@ -4,7 +4,6 @@ Name: Janine Bijsterbosch
 Title: Associate Professor
 Pronouns: She/Her
 Job: Panelist
-Panel: Ten years of OSSIG - historical perspectives on open science at OHBM
 Affiliation: Washington University in St. Louis
 ShortBio: Dr. Bijsterbosch heads the Personomics Lab at Washington University in St
   Louis in the Computational Imaging Research Center of the Department of Radiology. Her

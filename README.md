@@ -30,7 +30,19 @@ The [OSR website](https://ohbm.github.io/osr2026) was built using the [Beautiful
 
 
 #### Instructions for building website (these must be run prior to uploading onto GH)
-+ Check the speaker/volunteer CSV files are in place (in _data/speakers, _data/volunteers)
+
+#### OSR 2026 data ownership
+
+To avoid duplicated event data, keep each fact in only one active `_data` file:
+
++ `_data/osr_sessions.yml` owns reusable session metadata: title, category, date label, time, URLs, description, and objectives.
++ `_data/session_speakers.yml` owns session rosters, moderators, and per-speaker talk titles/summaries.
++ `_data/osr_schedule.yml` owns day ordering and standalone schedule events.
++ `_data/osr_rooms.yml` owns room assignments: `Room H` by default, with `Room Agora` for the OSSIG symposium.
++ `_data/speakers.csv` owns person profile data only: name, title, pronouns, role/job, affiliation, bio, and social links.
++ Speaker-page talk lists are derived from the session, schedule, and roster files. Do not recreate `_data/accepted_talks.csv` as a hand-maintained source.
+
++ Check the speaker/volunteer CSV files are in place (in `_data/speakers.csv`, `_data/volunteers.csv`)
 Wipe the built directories if they already exist, and re-build: 
 `rm -r _speakers _volunteers; bundle exec jekyll pagemaster speakers volunteers`
 Commit the new directories and push the site. This must be done every time the CSV files are changed. 

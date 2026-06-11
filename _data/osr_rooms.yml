@@ -1,0 +1,4 @@
+default: Room H
+overrides:
+  - id: ossig-symposium
+    room: Room Agora

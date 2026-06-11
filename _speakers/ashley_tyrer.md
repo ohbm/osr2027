@@ -4,7 +4,6 @@ Name: Ashley Tyrer
 Title: Assistant Professor
 Pronouns: she/her
 Job: Panelist
-Panel: How to Communicate Your Science to a Broader Audience
 Affiliation: Aarhus University
 ShortBio: Ashley is an Assistant Professor of Computational Neuroscience with the Embodied
   Computation Group at Aarhus University, Denmark. Her work focuses on neuroimaging and

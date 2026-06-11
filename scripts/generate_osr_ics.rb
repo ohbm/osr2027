@@ -11,6 +11,7 @@ TIMEZONE = "Europe/Paris"
 OUTPUT_PATH = File.join(ROOT, "downloads", "OSRschedule.ics")
 SCHEDULE_PATH = File.join(ROOT, "_data", "osr_schedule.yml")
 SESSIONS_PATH = File.join(ROOT, "_data", "osr_sessions.yml")
+ROOMS_PATH = File.join(ROOT, "_data", "osr_rooms.yml")
 CONFIG_PATH = File.join(ROOT, "_config.yml")
 DTSTAMP = "20260514T000000Z"
 
@@ -91,10 +92,18 @@ def event_url(site_base, event)
   end
 end
 
+def event_room(event, rooms)
+  override = rooms.fetch("overrides", []).find do |candidate|
+    candidate.fetch("id") == event.fetch("id")
+  end
+  override ? override.fetch("room") : rooms.fetch("default")
+end
+
 schedule = read_yaml(SCHEDULE_PATH)
 sessions = read_yaml(SESSIONS_PATH).each_with_object({}) do |session, index|
   index[session.fetch("id")] = session
 end
+rooms = read_yaml(ROOMS_PATH)
 site_base = config_url(read_yaml(CONFIG_PATH))
 
 lines = [
@@ -146,6 +155,7 @@ schedule.fetch("days").each do |day|
 
     uid = "osr2026-#{event.fetch("id")}@ohbm.github.io"
     url = event_url(site_base, event)
+    room = event_room(event, rooms)
     description = "OHBM Open Science Room 2026 session. Full schedule: #{site_base}/schedule/"
 
     lines.concat(
@@ -157,7 +167,7 @@ schedule.fetch("days").each do |day|
         property("DTEND;TZID=#{TIMEZONE}", ics_datetime(end_at)),
         property("SUMMARY", escape_text(event_title(event))),
         property("DESCRIPTION", escape_text(description)),
-        property("LOCATION", escape_text("OHBM Open Science Room")),
+        property("LOCATION", escape_text(room)),
         property("URL", url),
         "END:VEVENT"
       ]

@@ -4,7 +4,6 @@ Name: Cassandra Gould Van Praag
 Title: Executive Director
 Pronouns: she/her
 Job: Panelist
-Panel: Career Journeys in Open Science
 Affiliation: RCM Cooperative
 ShortBio: Cass is Co-Founder and Executive Director of RCM Cooperative. She has a PhD
   in Neuroscience (2014) and 6 years experience building data science communities at the

@@ -11,10 +11,13 @@ The OSR has always been a place to learn and share experiences. In 2026, the cur
 {% if session.category == "roundtable" or session.category == "panel" %}
 <h2 id="{{ session.anchor }}">{% if session.category == "roundtable" %}OSR Round Table{% else %}OSR Panel{% endif %}: {{ session.title }}</h2>
 {% assign session_roster = site.data.session_speakers[session.id] %}
+{% assign room_override = site.data.osr_rooms.overrides | where: "id", session.id | first %}
+{% assign session_room = room_override.room | default: site.data.osr_rooms.default %}
 {% if session_roster and session_roster.panelists.size > 0 %}
 <div style="display:flex; flex-wrap:wrap; gap:12px; margin:10px 0 20px 0; align-items:flex-start;">{% for entry in session_roster.panelists %}{% assign speaker_name = entry.name | default: entry %}{% assign spk = site.speakers | where: "Name", speaker_name | first %}{% if spk %}{% assign speaker_photo = spk.Photo | default: "/img/speakers/placeholder.jpg" %}<div style="text-align:center; width:84px;"><a href="{{ site.baseurl }}{{ spk.url }}" style="text-decoration:none; color:inherit;"><img src="{{ site.baseurl }}{{ speaker_photo }}" alt="{{ spk.Name }}" style="width:80px; height:80px; border-radius:50%; object-fit:cover; display:block; margin:0 auto 5px;"><span style="font-size:0.75em; line-height:1.3; display:block;">{{ spk.Name }}</span></a></div>{% endif %}{% endfor %}</div>
 {% endif %}
 When: {{ session.start_time }}-{{ session.end_time }} CEST (UTC+2) | {{ session.day_label }} ({{ session.weekday }})
+Room: {{ session_room }}
 
 {% if session.crowdcast_url %}<a href="{{ session.crowdcast_url }}" target="_blank" rel="noopener">Watch on Crowdcast</a>{% endif %}
 

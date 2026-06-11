@@ -4,7 +4,6 @@ Name: Rotem Botvinik-Nezer
 Title: Assistant Professor
 Pronouns: She/her/hers
 Job: Panelist
-Panel: The Buffet of Open Science
 Affiliation: Hebrew University of Jerusalem
 ShortBio: Rotem Botvinik-Nezer is an Assistant Professor at the Hebrew University of
   Jerusalem and PI of the Reproducible Belief Neuroscience Lab. Her research combines

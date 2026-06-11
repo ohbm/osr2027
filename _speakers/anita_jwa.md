@@ -4,7 +4,6 @@ Name: Anita Jwa
 Title: Research Scholar
 Pronouns: She/her/hers
 Job: Panelist
-Panel: Sharing Data Across Borders
 Affiliation: Stanford University
 ShortBio: I am a Research Scholar in Dr. Russ Poldrack's lab in the Department of Psychology
   at Stanford University. With a background in law and neuroethics, my research focuses

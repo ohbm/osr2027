@@ -4,7 +4,6 @@ Name: Fernanda Ribeiro
 Title: Marie Skłodowska-Curie Postdoctoral Fellow
 Pronouns: she/her
 Job: Panelist
-Panel: How to Communicate Your Science to a Broader Audience
 Affiliation: Justus-Liebig University Giessen
 ShortBio: Fernanda is a Marie Skłodowska-Curie postdoctoral fellow in Prof. Martin
   Hebart's Computational Cognitive Neuroscience and Quantitative Psychiatry group at

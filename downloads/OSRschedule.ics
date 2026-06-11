@@ -30,7 +30,7 @@ DTEND;TZID=Europe/Paris:20260615T090000
 SUMMARY:Table Talk 1: The Buffet of Open Science
 DESCRIPTION:OHBM Open Science Room 2026 session. Full schedule: https://ohb
  m.github.io/osr2026/schedule/
-LOCATION:OHBM Open Science Room
+LOCATION:Room H
 URL:https://ohbm.github.io/osr2026/tabletalk/#buffet-open-science
 END:VEVENT
 BEGIN:VEVENT
@@ -41,7 +41,7 @@ DTEND;TZID=Europe/Paris:20260615T103000
 SUMMARY:Panel 1: Sharing Data Across Borders
 DESCRIPTION:OHBM Open Science Room 2026 session. Full schedule: https://ohb
  m.github.io/osr2026/schedule/
-LOCATION:OHBM Open Science Room
+LOCATION:Room H
 URL:https://ohbm.github.io/osr2026/panel/#sharing-data-across-borders
 END:VEVENT
 BEGIN:VEVENT
@@ -52,7 +52,7 @@ DTEND;TZID=Europe/Paris:20260615T123000
 SUMMARY:Open Science Room Opening ft. BIDS annual updates
 DESCRIPTION:OHBM Open Science Room 2026 session. Full schedule: https://ohb
  m.github.io/osr2026/schedule/
-LOCATION:OHBM Open Science Room
+LOCATION:Room H
 URL:https://ohbm.github.io/osr2026/panel/#opening-bids-updates
 END:VEVENT
 BEGIN:VEVENT
@@ -63,7 +63,7 @@ DTEND;TZID=Europe/Paris:20260615T140000
 SUMMARY:Table Talk 2: What's/who's missing in the Era of Large Data?
 DESCRIPTION:OHBM Open Science Room 2026 session. Full schedule: https://ohb
  m.github.io/osr2026/schedule/
-LOCATION:OHBM Open Science Room
+LOCATION:Room H
 URL:https://ohbm.github.io/osr2026/tabletalk/#missing-large-data
 END:VEVENT
 BEGIN:VEVENT
@@ -74,7 +74,7 @@ DTEND;TZID=Europe/Paris:20260615T153000
 SUMMARY:Table Talk 3: Preregistration Enhances Creativity in Science
 DESCRIPTION:OHBM Open Science Room 2026 session. Full schedule: https://ohb
  m.github.io/osr2026/schedule/
-LOCATION:OHBM Open Science Room
+LOCATION:Room H
 URL:https://ohbm.github.io/osr2026/tabletalk/#preregistration-creativity
 END:VEVENT
 BEGIN:VEVENT
@@ -85,7 +85,7 @@ DTEND;TZID=Europe/Paris:20260615T180000
 SUMMARY:Panel 2: How to Communicate Your Science to a Broader Audience
 DESCRIPTION:OHBM Open Science Room 2026 session. Full schedule: https://ohb
  m.github.io/osr2026/schedule/
-LOCATION:OHBM Open Science Room
+LOCATION:Room H
 URL:https://ohbm.github.io/osr2026/panel/#communicate-science
 END:VEVENT
 BEGIN:VEVENT
@@ -97,7 +97,7 @@ SUMMARY:Table Talk 4: Using LLMs to Lower the Barrier to Entry to Open Scie
  nce
 DESCRIPTION:OHBM Open Science Room 2026 session. Full schedule: https://ohb
  m.github.io/osr2026/schedule/
-LOCATION:OHBM Open Science Room
+LOCATION:Room H
 URL:https://ohbm.github.io/osr2026/tabletalk/#llms-open-science
 END:VEVENT
 BEGIN:VEVENT
@@ -109,7 +109,7 @@ SUMMARY:OSSIG Symposium: Legal Dimensions of Open Science: From Publishing\
  , to Software\, and Data
 DESCRIPTION:OHBM Open Science Room 2026 session. Full schedule: https://ohb
  m.github.io/osr2026/schedule/
-LOCATION:OHBM Open Science Room
+LOCATION:Room Agora
 URL:https://ohbm.github.io/osr2026/symposium/
 END:VEVENT
 BEGIN:VEVENT
@@ -120,7 +120,7 @@ DTEND;TZID=Europe/Paris:20260616T111500
 SUMMARY:Special Event: ComCom Comms Comps
 DESCRIPTION:OHBM Open Science Room 2026 session. Full schedule: https://ohb
  m.github.io/osr2026/schedule/
-LOCATION:OHBM Open Science Room
+LOCATION:Room H
 URL:https://ohbm.github.io/osr2026/schedule/
 END:VEVENT
 BEGIN:VEVENT
@@ -131,7 +131,7 @@ DTEND;TZID=Europe/Paris:20260616T131500
 SUMMARY:No-Cap (SACIN)
 DESCRIPTION:OHBM Open Science Room 2026 session. Full schedule: https://ohb
  m.github.io/osr2026/schedule/
-LOCATION:OHBM Open Science Room
+LOCATION:Room H
 URL:https://ohbm.github.io/osr2026/schedule/
 END:VEVENT
 BEGIN:VEVENT
@@ -142,7 +142,7 @@ DTEND;TZID=Europe/Paris:20260616T143000
 SUMMARY:Reproducibility Challenge
 DESCRIPTION:OHBM Open Science Room 2026 session. Full schedule: https://ohb
  m.github.io/osr2026/schedule/
-LOCATION:OHBM Open Science Room
+LOCATION:Room H
 URL:https://ohbm.github.io/osr2026/schedule/
 END:VEVENT
 BEGIN:VEVENT
@@ -153,7 +153,7 @@ DTEND;TZID=Europe/Paris:20260616T171500
 SUMMARY:Big Think
 DESCRIPTION:OHBM Open Science Room 2026 session. Full schedule: https://ohb
  m.github.io/osr2026/schedule/
-LOCATION:OHBM Open Science Room
+LOCATION:Room H
 URL:https://ohbm.github.io/osr2026/schedule/
 END:VEVENT
 BEGIN:VEVENT
@@ -165,7 +165,7 @@ SUMMARY:Panel 3: Ten years of OSSIG - historical perspectives on open scien
  ce at OHBM
 DESCRIPTION:OHBM Open Science Room 2026 session. Full schedule: https://ohb
  m.github.io/osr2026/schedule/
-LOCATION:OHBM Open Science Room
+LOCATION:Room H
 URL:https://ohbm.github.io/osr2026/panel/#ten-years-ossig
 END:VEVENT
 BEGIN:VEVENT
@@ -176,7 +176,7 @@ DTEND;TZID=Europe/Paris:20260617T103000
 SUMMARY:Emergent Session 1
 DESCRIPTION:OHBM Open Science Room 2026 session. Full schedule: https://ohb
  m.github.io/osr2026/schedule/
-LOCATION:OHBM Open Science Room
+LOCATION:Room H
 URL:https://ohbm.github.io/osr2026/emergent/
 END:VEVENT
 BEGIN:VEVENT
@@ -187,7 +187,7 @@ DTEND;TZID=Europe/Paris:20260617T133000
 SUMMARY:Panel 4: Career Journeys in Open Science
 DESCRIPTION:OHBM Open Science Room 2026 session. Full schedule: https://ohb
  m.github.io/osr2026/schedule/
-LOCATION:OHBM Open Science Room
+LOCATION:Room H
 URL:https://ohbm.github.io/osr2026/panel/#career-journeys
 END:VEVENT
 BEGIN:VEVENT
@@ -198,7 +198,7 @@ DTEND;TZID=Europe/Paris:20260617T144500
 SUMMARY:Emergent Session 2
 DESCRIPTION:OHBM Open Science Room 2026 session. Full schedule: https://ohb
  m.github.io/osr2026/schedule/
-LOCATION:OHBM Open Science Room
+LOCATION:Room H
 URL:https://ohbm.github.io/osr2026/emergent/
 END:VEVENT
 BEGIN:VEVENT
@@ -209,7 +209,7 @@ DTEND;TZID=Europe/Paris:20260617T170000
 SUMMARY:Software Demonstrations
 DESCRIPTION:OHBM Open Science Room 2026 session. Full schedule: https://ohb
  m.github.io/osr2026/schedule/
-LOCATION:OHBM Open Science Room
+LOCATION:Room H
 URL:https://ohbm.github.io/osr2026/schedule/
 END:VEVENT
 BEGIN:VEVENT
@@ -220,7 +220,7 @@ DTEND;TZID=Europe/Paris:20260618T101500
 SUMMARY:Emergent Session 3
 DESCRIPTION:OHBM Open Science Room 2026 session. Full schedule: https://ohb
  m.github.io/osr2026/schedule/
-LOCATION:OHBM Open Science Room
+LOCATION:Room H
 URL:https://ohbm.github.io/osr2026/emergent/
 END:VEVENT
 BEGIN:VEVENT
@@ -231,7 +231,7 @@ DTEND;TZID=Europe/Paris:20260618T121500
 SUMMARY:Emergent Session 4
 DESCRIPTION:OHBM Open Science Room 2026 session. Full schedule: https://ohb
  m.github.io/osr2026/schedule/
-LOCATION:OHBM Open Science Room
+LOCATION:Room H
 URL:https://ohbm.github.io/osr2026/emergent/
 END:VEVENT
 BEGIN:VEVENT
@@ -242,7 +242,7 @@ DTEND;TZID=Europe/Paris:20260618T133000
 SUMMARY:Emergent Session 5
 DESCRIPTION:OHBM Open Science Room 2026 session. Full schedule: https://ohb
  m.github.io/osr2026/schedule/
-LOCATION:OHBM Open Science Room
+LOCATION:Room H
 URL:https://ohbm.github.io/osr2026/emergent/
 END:VEVENT
 BEGIN:VEVENT
@@ -253,7 +253,7 @@ DTEND;TZID=Europe/Paris:20260618T144500
 SUMMARY:Emergent Session 6
 DESCRIPTION:OHBM Open Science Room 2026 session. Full schedule: https://ohb
  m.github.io/osr2026/schedule/
-LOCATION:OHBM Open Science Room
+LOCATION:Room H
 URL:https://ohbm.github.io/osr2026/emergent/
 END:VEVENT
 END:VCALENDAR

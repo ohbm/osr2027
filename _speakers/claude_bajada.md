@@ -4,7 +4,6 @@ Name: Claude Bajada
 Title: Senior Lecturer
 Pronouns: he/him
 Job: Panelist
-Panel: Sharing Data Across Borders
 Affiliation: University of Malta
 ShortBio: Claude J. Bajada is a Senior Lecturer at the University of Malta, where he
   serves as Chair of the University of Malta MRI Research Platform (UMRI) and heads the

@@ -4,7 +4,6 @@ Name: Subapriya Suppiah
 Title: Professor
 Pronouns: She/her
 Job: Panelist
-Panel: Career Journeys in Open Science
 Affiliation: Universiti Putra Malaysia (UPM)
 ShortBio: Professor Dr Subapriya Suppiah is a diagnostic clinical radiologist and nuclear
   medicine physician with subspecialty expertise in neuroimaging, neuroscience, nuclear

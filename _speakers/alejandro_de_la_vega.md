@@ -4,7 +4,6 @@ Name: Alejandro de la Vega
 Title: Research Assistant Professor
 Pronouns: he/him
 Job: Panelist
-Panel: Using LLMs to Lower the Barrier to Entry to Open Science
 Affiliation: UT Austin
 ShortBio: "Alejandro is interested in encouraging the adoption of reproducible research
   practices, making it easier to transparently share data and analyses, and facilitating

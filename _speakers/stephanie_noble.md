@@ -4,7 +4,6 @@ Name: Stephanie Noble
 Title: Assistant Professor
 Pronouns: she/her
 Job: Panelist
-Panel: Career Journeys in Open Science
 Affiliation: Yale University
 ShortBio: Dr. Stephanie Noble is an Assistant Professor in the Department of Psychology,
   Department of Bioengineering, and Center for Cognitive and Brain Health. Her work

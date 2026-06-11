@@ -23,27 +23,119 @@ layout: base
         <td style="border: none; width: 35%"><img src="{{ site.baseurl }}{{ img_path }}" class="person"></td>
         </tr>
 
-        {% assign talks = site.data.accepted_talks | where: "Name", page.Name %}
-        {% if talks.size > 0 %}
+        {% assign has_talks = false %}
+        {% capture talks_markup %}
+          {% for session in site.data.osr_sessions %}
+            {% assign session_roster = site.data.session_speakers[session.id] %}
+            {% if session_roster %}
+              {% if session.page_url contains '://' %}
+                {% assign session_href = session.page_url %}
+              {% else %}
+                {% assign session_href = session.page_url | append: "#" | append: session.anchor | relative_url %}
+              {% endif %}
+              {% for entry in session_roster.panelists %}
+                {% assign speaker_name = entry.name | default: entry %}
+                {% if speaker_name == page.Name %}
+                  {% assign has_talks = true %}
+                  {% assign talk_title = entry.talk_title | default: session.title %}
+                  {% assign format_label = "Session Participant" %}
+                  {% if session.category == "panel" %}
+                    {% if entry.talk_title %}
+                      {% assign format_label = "Panel Talk" %}
+                    {% else %}
+                      {% assign format_label = "Panel Participant" %}
+                    {% endif %}
+                  {% elsif session.category == "tabletalk" %}
+                    {% assign format_label = "Table Talk Participant" %}
+                  {% elsif session.category == "roundtable" %}
+                    {% assign format_label = "Round Table Participant" %}
+                  {% endif %}
+                  <span>
+                      <h4><i> {{ talk_title }} </i></h4>
+                      <h5><a href="{{ session_href }}">Session details</a> - {{ session.day_label }} </h5>
+                      <h5>Theme: {{ session.title }}</h5>
+                      <h5>Format: {{ format_label }}</h5>
+                      <br>
+
+                  </span>
+                {% endif %}
+              {% endfor %}
+              {% for speaker_name in session_roster.moderators %}
+                {% if speaker_name == page.Name %}
+                  {% assign has_talks = true %}
+                  {% assign format_label = "Session Moderator" %}
+                  {% if session.category == "panel" %}
+                    {% assign format_label = "Panel Moderator" %}
+                  {% elsif session.category == "tabletalk" %}
+                    {% assign format_label = "Table Talk Moderator" %}
+                  {% elsif session.category == "roundtable" %}
+                    {% assign format_label = "Round Table Moderator" %}
+                  {% endif %}
+                  <span>
+                      <h4><i> {{ session.title }} </i></h4>
+                      <h5><a href="{{ session_href }}">Session details</a> - {{ session.day_label }} </h5>
+                      <h5>Theme: {{ session.title }}</h5>
+                      <h5>Format: {{ format_label }}</h5>
+                      <br>
+
+                  </span>
+                {% endif %}
+              {% endfor %}
+            {% endif %}
+          {% endfor %}
+
+          {% for day in site.data.osr_schedule.days %}
+            {% for entry in day.entries %}
+              {% unless entry.session_id %}
+                {% assign session_roster = site.data.session_speakers[entry.id] %}
+                {% if session_roster %}
+                  {% if entry.page_url contains '://' %}
+                    {% assign session_href = entry.page_url %}
+                  {% else %}
+                    {% assign session_href = entry.page_url | relative_url %}
+                  {% endif %}
+                  {% assign date_label = entry.day_label | default: day.heading %}
+                  {% for speaker_entry in session_roster.panelists %}
+                    {% assign speaker_name = speaker_entry.name | default: speaker_entry %}
+                    {% if speaker_name == page.Name %}
+                      {% assign has_talks = true %}
+                      {% assign talk_title = speaker_entry.talk_title | default: entry.title %}
+                      {% assign format_label = "Session Participant" %}
+                      {% if entry.id == "ossig-symposium" %}
+                        {% assign format_label = "Symposium Talk" %}
+                      {% endif %}
+                      <span>
+                          <h4><i> {{ talk_title }} </i></h4>
+                          <h5><a href="{{ session_href }}">Session details</a> - {{ date_label }} </h5>
+                          <h5>Theme: {{ entry.title }}</h5>
+                          <h5>Format: {{ format_label }}</h5>
+                          <br>
+
+                      </span>
+                    {% endif %}
+                  {% endfor %}
+                  {% for speaker_name in session_roster.moderators %}
+                    {% if speaker_name == page.Name %}
+                      {% assign has_talks = true %}
+                      <span>
+                          <h4><i> {{ entry.title }} </i></h4>
+                          <h5><a href="{{ session_href }}">Session details</a> - {{ date_label }} </h5>
+                          <h5>Theme: {{ entry.title }}</h5>
+                          <h5>Format: Session Moderator</h5>
+                          <br>
+
+                      </span>
+                    {% endif %}
+                  {% endfor %}
+                {% endif %}
+              {% endunless %}
+            {% endfor %}
+          {% endfor %}
+        {% endcapture %}
+        {% if has_talks %}
           <tr style="border: none; background: none"><td style="border: none; background: none">
           <h3> Talks </h3>
-          {% for talk in talks %}
-            {% assign talk_href = talk.Link %}
-            {% assign talk_external = false %}
-            {% if talk_href contains '://' %}
-              {% assign talk_external = true %}
-            {% else %}
-              {% assign talk_href = talk_href | relative_url %}
-            {% endif %}
-            <span>
-                <h4><i> {{ talk.TalkTitle }} </i></h4>
-                <h5><a href="{{ talk_href }}"{% if talk_external %} target="_blank" rel="noopener"{% endif %}>Session details</a> - {{ talk.Date }} </h5>
-                <h5>Theme: {{talk.Theme}}</h5>
-                <h5>Format: {{talk.TalkFormat}}</h5>
-                <br>
-
-            </span>
-          {% endfor %}
+          {{ talks_markup }}
           </td></tr>
         {% endif %}
         </table>

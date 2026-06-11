@@ -4,7 +4,6 @@ Name: Marta Topor
 Title: Assistant Professor
 Pronouns: she/her
 Job: Panelist
-Panel: Preregistration Enhances Creativity in Science
 Affiliation: "Linköping University, Sweden"
 ShortBio: Marta Topor is an assistant professor and an open science coach at Linköping
   University in Sweden. She works in the field of cognitive neurodevelopment using M/EEG
