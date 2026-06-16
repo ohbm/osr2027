@@ -63,22 +63,22 @@ days:
     entries:
       - session_id: ten-years-ossig
       - id: emergent-1
-        title: Emergent Session 1
+        title: "Emergent Session 1: Software Demos"
         start_time: "09:30"
         end_time: "10:30"
         gcal_start: "20260617T093000"
         gcal_end: "20260617T103000"
-        page_url: /emergent/
+        page_url: /emergent/#software-demos
         crowdcast_url: "https://www.crowdcast.io/c/osr-2026-emergent-1"
         feedback_url: "https://forms.gle/NbGEjLwgYTRkS11Q7"
       - session_id: career-journeys
       - id: emergent-2
-        title: Emergent Session 2
+        title: "Emergent Session 2: Biological Forms of Intelligence"
         start_time: "13:45"
         end_time: "14:45"
         gcal_start: "20260617T134500"
         gcal_end: "20260617T144500"
-        page_url: /emergent/
+        page_url: /emergent/#biological-forms-intelligence
         crowdcast_url: "https://www.crowdcast.io/c/osr-2026-emergent-2"
         feedback_url: "https://forms.gle/8xNkKk6rZgrZVX7M7"
       - id: software-demos
@@ -95,38 +95,38 @@ days:
     heading: June 18, Thursday
     entries:
       - id: emergent-3
-        title: Emergent Session 3
+        title: "Emergent Session 3: Sustainability of our SIGs and Communities"
         start_time: "09:15"
         end_time: "10:15"
         gcal_start: "20260618T091500"
         gcal_end: "20260618T101500"
-        page_url: /emergent/
+        page_url: /emergent/#sustainability-sigs-communities
         crowdcast_url: "https://www.crowdcast.io/c/osr-2026-emergent-3"
         feedback_url: "https://forms.gle/MYzvtefVvYxYtkfr6"
       - id: emergent-4
-        title: Emergent Session 4
+        title: "Emergent Session 4: AI in Academia: panacea or a Trojan horse?"
         start_time: "11:15"
         end_time: "12:15"
         gcal_start: "20260618T111500"
         gcal_end: "20260618T121500"
-        page_url: /emergent/
+        page_url: /emergent/#ai-in-academia
         crowdcast_url: "https://www.crowdcast.io/c/osr-2026-emergent-4"
         feedback_url: "https://forms.gle/QCeNZyLqB7q4X5Ac6"
       - id: emergent-5
-        title: Emergent Session 5
+        title: "Emergent Session 5: Agentic Skill Sharing"
         start_time: "12:30"
         end_time: "13:30"
         gcal_start: "20260618T123000"
         gcal_end: "20260618T133000"
-        page_url: /emergent/
+        page_url: /emergent/#agentic-skill-sharing
         crowdcast_url: "https://www.crowdcast.io/c/osr-2026-emergent-5"
         feedback_url: "https://forms.gle/8KPgTVnLer5GMLwH8"
       - id: emergent-6
-        title: Emergent Session 6
+        title: "Emergent Session 6: Science at the End of the World"
         start_time: "13:45"
         end_time: "14:45"
         gcal_start: "20260618T134500"
         gcal_end: "20260618T144500"
-        page_url: /emergent/
+        page_url: /emergent/#science-end-world
         crowdcast_url: "https://www.crowdcast.io/c/osr-2026-emergent-6"
         feedback_url: "https://forms.gle/LZ2DH4ZTGmj2oF9Q8"

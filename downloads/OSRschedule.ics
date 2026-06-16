@@ -173,11 +173,11 @@ UID:osr2026-emergent-1@ohbm.github.io
 DTSTAMP:20260514T000000Z
 DTSTART;TZID=Europe/Paris:20260617T093000
 DTEND;TZID=Europe/Paris:20260617T103000
-SUMMARY:Emergent Session 1
+SUMMARY:Emergent Session 1: Software Demos
 DESCRIPTION:OHBM Open Science Room 2026 session. Full schedule: https://ohb
  m.github.io/osr2026/schedule/
 LOCATION:Room H
-URL:https://ohbm.github.io/osr2026/emergent/
+URL:https://ohbm.github.io/osr2026/emergent/#software-demos
 END:VEVENT
 BEGIN:VEVENT
 UID:osr2026-career-journeys@ohbm.github.io
@@ -195,11 +195,11 @@ UID:osr2026-emergent-2@ohbm.github.io
 DTSTAMP:20260514T000000Z
 DTSTART;TZID=Europe/Paris:20260617T134500
 DTEND;TZID=Europe/Paris:20260617T144500
-SUMMARY:Emergent Session 2
+SUMMARY:Emergent Session 2: Biological Forms of Intelligence
 DESCRIPTION:OHBM Open Science Room 2026 session. Full schedule: https://ohb
  m.github.io/osr2026/schedule/
 LOCATION:Room H
-URL:https://ohbm.github.io/osr2026/emergent/
+URL:https://ohbm.github.io/osr2026/emergent/#biological-forms-intelligence
 END:VEVENT
 BEGIN:VEVENT
 UID:osr2026-software-demos@ohbm.github.io
@@ -217,43 +217,44 @@ UID:osr2026-emergent-3@ohbm.github.io
 DTSTAMP:20260514T000000Z
 DTSTART;TZID=Europe/Paris:20260618T091500
 DTEND;TZID=Europe/Paris:20260618T101500
-SUMMARY:Emergent Session 3
+SUMMARY:Emergent Session 3: Sustainability of our SIGs and Communities
 DESCRIPTION:OHBM Open Science Room 2026 session. Full schedule: https://ohb
  m.github.io/osr2026/schedule/
 LOCATION:Room H
-URL:https://ohbm.github.io/osr2026/emergent/
+URL:https://ohbm.github.io/osr2026/emergent/#sustainability-sigs-communitie
+ s
 END:VEVENT
 BEGIN:VEVENT
 UID:osr2026-emergent-4@ohbm.github.io
 DTSTAMP:20260514T000000Z
 DTSTART;TZID=Europe/Paris:20260618T111500
 DTEND;TZID=Europe/Paris:20260618T121500
-SUMMARY:Emergent Session 4
+SUMMARY:Emergent Session 4: AI in Academia: panacea or a Trojan horse?
 DESCRIPTION:OHBM Open Science Room 2026 session. Full schedule: https://ohb
  m.github.io/osr2026/schedule/
 LOCATION:Room H
-URL:https://ohbm.github.io/osr2026/emergent/
+URL:https://ohbm.github.io/osr2026/emergent/#ai-in-academia
 END:VEVENT
 BEGIN:VEVENT
 UID:osr2026-emergent-5@ohbm.github.io
 DTSTAMP:20260514T000000Z
 DTSTART;TZID=Europe/Paris:20260618T123000
 DTEND;TZID=Europe/Paris:20260618T133000
-SUMMARY:Emergent Session 5
+SUMMARY:Emergent Session 5: Agentic Skill Sharing
 DESCRIPTION:OHBM Open Science Room 2026 session. Full schedule: https://ohb
  m.github.io/osr2026/schedule/
 LOCATION:Room H
-URL:https://ohbm.github.io/osr2026/emergent/
+URL:https://ohbm.github.io/osr2026/emergent/#agentic-skill-sharing
 END:VEVENT
 BEGIN:VEVENT
 UID:osr2026-emergent-6@ohbm.github.io
 DTSTAMP:20260514T000000Z
 DTSTART;TZID=Europe/Paris:20260618T134500
 DTEND;TZID=Europe/Paris:20260618T144500
-SUMMARY:Emergent Session 6
+SUMMARY:Emergent Session 6: Science at the End of the World
 DESCRIPTION:OHBM Open Science Room 2026 session. Full schedule: https://ohb
  m.github.io/osr2026/schedule/
 LOCATION:Room H
-URL:https://ohbm.github.io/osr2026/emergent/
+URL:https://ohbm.github.io/osr2026/emergent/#science-end-world
 END:VEVENT
 END:VCALENDAR
