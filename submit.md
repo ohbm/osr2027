@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Submit
+title: Submissions Closed
 ---
 
 <div id="submission"></div>
@@ -9,13 +9,9 @@ title: Submit
 {::options parse_block_html="false" /}
 {::options parse_block_html="true" /}
 
-This year, OSR has six **emergent session** slots selected from attendee proposals.
+Emergent-session submissions for OSR 2026 are now closed. We are no longer accepting new emergent-session proposals.
 
-<p align="justify">
-  Before contacting us about an emergent-session update or late request, make sure you are familiar with the [OSR formats]({{ '/formats/' | relative_url }}){:target="_blank"}.
-</p>
-
-## Emergent Session Submissions
+## Emergent Session Program
 
 {::options parse_block_html="true" /}
 <p align="justify">
@@ -40,8 +36,6 @@ The current 2026 OSR program includes **6 emergent-session slots**. All times be
 Confirmed session topics, proposers, proposal links, and descriptions are listed on the [Emergent Sessions]({{ '/emergent/' | relative_url }}) page. <br> 
 </p>
 
-<iframe width="100%" height="900px" src="https://forms.office.com/Pages/ResponsePage.aspx?id=peLXMdi9TkGel76pmOvf4d0T-_VvMCNMlRO35Le8ntFUNDJKMEJXUUkxWEhRQUY3S0E1NVA1NTJOVS4u&embed=true" frameborder="0" marginwidth="0" marginheight="0" style="border: none; max-width:100%; max-height:100vh" allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen> </iframe>
-
 #### Confirmed sessions
 
 <p align="justify">
@@ -49,12 +43,12 @@ Confirmed emergent-session titles and hosts are posted on the [Emergent Sessions
 <br>
 </p>
 
-### Review timeline
+### Submissions closed
 
 <p align="justify">
-Emergent-session requests were reviewed on a rolling basis during the meeting. Additional requests can only be considered if program space opens, so organizers should contact us directly before relying on a late form submission.<br>
+Emergent-session requests were reviewed on a rolling basis and the 2026 program is now full. New emergent-session submissions will not be accepted.<br>
 <br>
-If you need a rapid decision on a timely proposal or correction, contact us either by email at `ohbmopenscience@gmail.com` or in person at the OSR.<br>
+If you need to correct information for an already scheduled session, contact us either by email at `ohbmopenscience@gmail.com` or in person at the OSR.<br>
 </p>
 {::options parse_block_html="false" /}
 <br>

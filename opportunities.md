@@ -73,14 +73,14 @@ Time commitment: 1-3 hours <br>
 
 <ins>Tasks</ins>
 
-Emergent sessions: live sessions, booked “on the fly” <br>
-* Monitor the emergent session requests that come in during the meeting.  <br>
-* Reserve a time for them and start the meeting at their specified time. <br>
+Emergent sessions: live sessions selected from the final program <br>
+* Monitor the published emergent-session schedule during the meeting.  <br>
+* Start each session at its specified time. <br>
 * Make sure they conclude their meeting at their specified time. <br>
 * Coordinate with the website volunteer so that the emergent sessions appear on the website schedule. <br>
 * Coordinate with the social media engagement volunteer so that the emergent session gets tweeted. <br>
 
-Note: Submitted emergent requests will be briefly reviewed by the OSR team for appropriate content, and details communicated regarding how to book a slot in our schedule. <br>
+Note: Emergent-session submissions are closed, and new requests are no longer being accepted. <br>
 
 **Social Media Content Development** <br>
 Core skills: Twitter <br>
