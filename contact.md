@@ -7,9 +7,9 @@ We invite you to contact us using any of the methods below.
 
 <img align="left" src="../img/email-logo.svg" alt="email" width="3.5%">&nbsp;Email: <ohbmopenscience@gmail.com>
 <br>  
-<img align="left" src="../img/twitter-logo.svg" alt="x" width="3.5%">&nbsp;X: <a href="https://x.com/OhbmOpen">@OhbmOpen</a> #OHBM2026 #OSR
+<img align="left" src="../img/twitter-logo.svg" alt="x" width="3.5%">&nbsp;X: <a href="https://x.com/OhbmOpen">@OhbmOpen</a> #OHBM2027 #OSR
 <br>  
-<img align="left" src="../img/github-logo.svg" alt="github" width="3.5%">&nbsp;GitHub: <a href="https://github.com/ohbm/osr2026">@ohbm</a>
+<img align="left" src="../img/github-logo.svg" alt="github" width="3.5%">&nbsp;GitHub: <a href="https://github.com/ohbm/osr2027">@ohbm</a>
 <br>  
 <img align="left" src="../img/mattermost-logo.svg" alt="mattermost" width="3.5%">&nbsp;Mattermost: <a href="https://mattermost.brainhack.org/brainhack/channels/hbm-open-science-room">hbm-open-science-room</a>
 
