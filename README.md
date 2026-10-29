@@ -2,7 +2,7 @@
 
 This is the GitHub repository for the OHBM Open Science Room (OSR).
 
-This repository hosts the code for [the OSR2026 website](https://ohbm.github.io/osr2026).
+This repository hosts the code for [the OSR2027 website](https://ohbm.github.io/osr2027).
 
 Below we provide basic info and links to more information. 
 
@@ -12,26 +12,26 @@ We are part of the <a href="https://ossig.netlify.app/">Open Science Special Int
 
 ### What are we doing?
 
-We are organizing, among other events, the Open Science Room at the <a href="https://humanbrainmapping.org/OHBM2026/" target="_blank">2026 meeting of the OHBM</a>.
+We are organizing, among other events, the Open Science Room at the <a href="https://humanbrainmapping.org/ohbm-2027/" target="_blank">2027 meeting of the OHBM</a>.
 
 ### Get involved
 
-All information is available on <a href="https://ohbm.github.io/osr2026" target="_blank">our website</a>.
+All information is available on <a href="https://ohbm.github.io/osr2027" target="_blank">our website</a>.
 
 ### Contact us
 
-Feel free to <a href="https://ohbm.github.io/osr2026/contact/" target="_blank">reach out to us</a>!
+Feel free to <a href="https://ohbm.github.io/osr2027/contact/" target="_blank">reach out to us</a>!
 
 
 ---
 
 ### Credit
-The [OSR website](https://ohbm.github.io/osr2026) was built using the [Beautiful Jekyll](https://deanattali.com/beautiful-jekyll/) theme by [Dean Attali](https://deanattali.com/).
+The [OSR website](https://ohbm.github.io/osr2027) was built using the [Beautiful Jekyll](https://deanattali.com/beautiful-jekyll/) theme by [Dean Attali](https://deanattali.com/).
 
 
 #### Instructions for building website (these must be run prior to uploading onto GH)
 
-#### OSR 2026 data ownership
+#### OSR 2027 data ownership
 
 To avoid duplicated event data, keep each fact in only one active `_data` file:
 
@@ -53,7 +53,7 @@ Commit the new directories and push the site. This must be done every time the C
 ruby scripts/generate_osr_ics.rb
 ```
 
-This writes `downloads/OSRschedule.ics` with 2026 `Europe/Paris` event times for the public schedule download.
+This writes `downloads/OSRschedule.ics` with 2027 `Europe/Paris` event times for the public schedule download.
 
 + If `bundle exec` error out, do the following things:
 
